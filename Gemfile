@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-
-
 gem 'rails', '4.1.1'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
@@ -18,6 +16,7 @@ end
 
 group :test do
 	gem 'capybara', '2.1.0'
+	gem 'minitest', '5.3.5'
 end
 
 group :doc do
