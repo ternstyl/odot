@@ -67,3 +67,5 @@ describe "Creating todo lists" do
     expect(page).to_not have_content("Grocery list")
   end
 end
+
+
