@@ -15,7 +15,7 @@ group :development, :test do
 end
 
 group :test do
-	gem 'capybara', '2.1.0'
+	gem 'capybara', '~> 2.1.0'
 	gem 'minitest', '5.3.5'
 	gem 'shoulda-matchers', '~> 2.6.2'
 end
