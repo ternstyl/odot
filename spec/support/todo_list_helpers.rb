@@ -4,5 +4,5 @@ module TodoListHelpers
     within dom_id_for(list) do
       click_link "List Items"
     end
-  end	
+  end
 end
